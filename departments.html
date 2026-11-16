@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Departments | City Care Hospital, Jaipur</title>
+  <meta name="description" content="Explore clinical departments at City Care Hospital: Cardiology, Orthopedics, Neurology, Pediatrics, Gynecology, General Medicine, Dermatology, and ENT.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Top Emergency & Announcement Bar -->
+  <aside class="top-bar" aria-label="Hospital emergency line and quick announcement">
+    <div class="container top-bar-container">
+      <div class="top-bar-emergency">
+        <svg class="icon-svg" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+        <span>Emergency:</span>
+        <a href="tel:+919876543210">+91 98765 43210 (24x7)</a>
+      </div>
+      <div class="top-bar-info">
+        <span><svg class="icon-svg" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Plot 12, Medical Square, Tonk Road, Jaipur, Rajasthan 302018</span>
+        <span><svg class="icon-svg" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> OPD: Mon - Sat: 8:00 AM - 8:00 PM</span>
+        <span><svg class="icon-svg" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"></circle><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"></path></svg> NABH &amp; NABL Accredited Multispecialty Hospital</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Site Navigation Header -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand" aria-label="City Care Hospital Home">
+        <div class="brand-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1>CITY CARE HOSPITAL</h1>
+          <p>Quality Healthcare for Everyone</p>
+        </div>
+      </a>
+
+      <nav aria-label="Primary navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="departments.html" class="nav-link">Departments</a></li>
+          <li><a href="doctors.html" class="nav-link">Doctors</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="health-packages.html" class="nav-link">Health Packages</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="theme-switch" role="switch" aria-checked="false" aria-label="Switch visual theme" title="Toggle dark/light mode">
+          <span class="switch-track">
+            <span class="switch-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="4.5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+            </span>
+            <span class="switch-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </span>
+            <span class="switch-thumb"></span>
+          </span>
+        </button>
+        <a href="appointment.html" class="btn btn-primary btn-sm">Book Appointment</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle mobile menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="mainContent">
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+      <div class="container page-banner-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span aria-current="page">Departments</span>
+        </nav>
+        <h1>Specialized Clinical Departments</h1>
+        <p>Comprehensive outpatient, inpatient, and surgical care across eight core medical disciplines under one roof.</p>
+      </div>
+    </section>
+
+    <!-- Search & Departments Directory Section -->
+    <section class="section">
+      <div class="container">
+
+        <!-- Live Search Box -->
+        <div class="filter-controls-wrapper">
+          <div class="search-box">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="deptSearch" placeholder="Search departments by name, condition, or treatments..." aria-label="Search departments">
+          </div>
+          <span style="font-size: 0.9rem; color: var(--text-muted);">Showing 8 Comprehensive Medical Centers</span>
+        </div>
+
+        <!-- 8 Department Cards -->
+        <div class="card-grid" id="departmentsContainer">
+
+          <!-- 1. Cardiology -->
+          <article class="card department-card" data-dept="cardiology">
+            <div class="card-img-wrap">
+              <img src="images/operation-theatre.jpg" alt="Cardiology and Cath Lab" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="card-badge">Heart &amp; Vascular</span>
+              <h3 class="card-title">Department of Cardiology</h3>
+              <p class="card-text">Specializing in coronary artery diseases, heart rhythm disorders, and emergency acute myocardial infarction interventions.</p>
+              
+              <ul class="card-meta-list">
+                <li><span>Head of Department:</span> <strong>Dr. Rajesh Sharma, DM</strong></li>
+                <li><span>OPD Schedule:</span> <strong>Mon - Fri (10:00 AM - 02:00 PM)</strong></li>
+              </ul>
+
+              <button class="dept-toggle-btn" type="button">View Clinical Scope &amp; Facilities</button>
+              
+              <div class="dept-expandable">
+                <p style="font-size: 0.88rem; margin-bottom: 0.5rem;"><strong>Key Procedures &amp; Infrastructure:</strong></p>
+                <ul style="font-size: 0.84rem; color: var(--text-muted); list-style: disc; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.25rem;">
+                  <li>Primary &amp; Elective Coronary Angioplasty (PTCA)</li>
+                  <li>Permanent Pacemaker &amp; ICD Implantation</li>
+                  <li>24-Hour Holter Monitoring &amp; Stress Echo (TMT)</li>
+                  <li>Dedicated 16-bed Coronary Intensive Care Unit (ICCU)</li>
+                </ul>
+              </div>
+
+              <div class="card-footer">
+                <a href="appointment.html?department=cardiology&doctor=Dr.+Rajesh+Sharma" class="btn btn-outline btn-sm btn-block">Book Cardiology OPD →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Orthopedics -->
+          <article class="card department-card" data-dept="orthopedics">
+            <div class="card-img-wrap">
+              <img src="images/building.jpg" alt="Orthopedic Care Ward" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="card-badge">Bones &amp; Joints</span>
+              <h3 class="card-title">Department of Orthopedics</h3>
+              <p class="card-text">Pioneering minimally invasive arthroscopic surgeries, total joint reconstructions, complex trauma fracture fixation, and spine care.</p>
+              
+              <ul class="card-meta-list">
+                <li><span>Head of Department:</span> <strong>Dr. Vikramaditya Rathore, M.Ch</strong></li>
+                <li><span>OPD Schedule:</span> <strong>Tue - Sat (11:00 AM - 04:00 PM)</strong></li>
+              </ul>
+
+              <button class="dept-toggle-btn" type="button">View Clinical Scope &amp; Facilities</button>
+              
+              <div class="dept-expandable">
+                <p style="font-size: 0.88rem; margin-bottom: 0.5rem;"><strong>Key Procedures &amp; Infrastructure:</strong></p>
+                <ul style="font-size: 0.84rem; color: var(--text-muted); list-style: disc; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.25rem;">
+                  <li>Navigated Total Knee &amp; Hip Replacement</li>
+                  <li>Knee &amp; Shoulder Ligament Reconstruction (ACL/PCL)</li>
+                  <li>Spine Decompression &amp; Fusion Surgery</li>
+                  <li>In-house Advanced Physiotherapy &amp; Rehab Gym</li>
+                </ul>
+              </div>
+
+              <div class="card-footer">
+                <a href="appointment.html?department=orthopedics&doctor=Dr.+Vikramaditya+Rathore" class="btn btn-outline btn-sm btn-block">Book Orthopedic OPD →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Pediatrics -->
+          <article class="card department-card" data-dept="pediatrics">
+            <div class="card-img-wrap">
+              <img src="images/patient-room.jpg" alt="Pediatrics Clinic Room" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="card-badge">Child &amp; Newborn</span>
+              <h3 class="card-title">Pediatrics &amp; Neonatology</h3>
+              <p class="card-text">Delivering gentle, specialized clinical care for infants, children, and adolescents, backed by an advanced tertiary Level-III NICU.</p>
+              
+              <ul class="card-meta-list">
+                <li><span>Head of Department:</span> <strong>Dr. Priya Mehta, DNB</strong></li>
+                <li><span>OPD Schedule:</span> <strong>Mon - Sat (09:00 AM - 01:00 PM)</strong></li>
+              </ul>
+
+              <button class="dept-toggle-btn" type="button">View Clinical Scope &amp; Facilities</button>
+              
+              <div class="dept-expandable">
+                <p style="font-size: 0.88rem; margin-bottom: 0.5rem;"><strong>Key Procedures &amp; Infrastructure:</strong></p>
+                <ul style="font-size: 0.84rem; color: var(--text-muted); list-style: disc; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.25rem;">
+                  <li>Neonatal Intensive Care (Level III NICU) for preterms</li>
+                  <li>Comprehensive Childhood Immunization Center</li>
+                  <li>Pediatric Asthma &amp; Allergy Management</li>
+                  <li>Growth, Milestone &amp; Nutrition Tracking Clinics</li>
+                </ul>
+              </div>
+
+              <div class="card-footer">
+                <a href="appointment.html?department=pediatrics&doctor=Dr.+Priya+Mehta" class="btn btn-outline btn-sm btn-block">Book Pediatrics OPD →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Neurology -->
+          <article class="card department-card" data-dept="neurology">
+            <div class="card-img-wrap">
+              <img src="images/icu.jpg" alt="Neurology Monitoring Center" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="card-badge">Brain &amp; Nerves</span>
+              <h3 class="card-title">Neurology &amp; Neuro-Sciences</h3>
+              <p class="card-text">Specialized diagnostic and clinical therapy for acute brain stroke, migraine, epilepsy, Parkinson's disease, and peripheral neuropathies.</p>
+              
+              <ul class="card-meta-list">
+                <li><span>Head of Department:</span> <strong>Dr. Ananya Mukherjee, DM</strong></li>
+                <li><span>OPD Schedule:</span> <strong>Mon, Wed, Fri (02:00 PM - 06:00 PM)</strong></li>
+              </ul>
+
+              <button class="dept-toggle-btn" type="button">View Clinical Scope &amp; Facilities</button>
+              
+              <div class="dept-expandable">
+                <p style="font-size: 0.88rem; margin-bottom: 0.5rem;"><strong>Key Procedures &amp; Infrastructure:</strong></p>
+                <ul style="font-size: 0.84rem; color: var(--text-muted); list-style: disc; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.25rem;">
+                  <li>Acute Ischemic Stroke Thrombolysis Protocol</li>
+                  <li>Digital Video EEG, EMG &amp; Nerve Conduction Studies</li>
+                  <li>Movement Disorders &amp; Memory Loss Evaluation</li>
+                  <li>Neuro-Critical Care Monitoring Unit</li>
+                </ul>
+              </div>
+
+              <div class="card-footer">
+                <a href="appointment.html?department=neurology&doctor=Dr.+Ananya+Mukherjee" class="btn btn-outline btn-sm btn-block">Book Neurology OPD →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5. Gynecology -->
+          <article class="card department-card" data-dept="gynecology">
+            <div class="card-img-wrap">
+              <img src="images/reception.jpg" alt="Women and Child Care Suite" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="card-badge">Women's Health</span>
+              <h3 class="card-title">Obstetrics &amp; Gynecology</h3>
+              <p class="card-text">Dedicated to female health through adolescence, painless childbirth, high-risk obstetrics, and laparoscopic gynecological procedures.</p>
+              
+              <ul class="card-meta-list">
+                <li><span>Head of Department:</span> <strong>Dr. Sunita Choudhary, MS</strong></li>
+                <li><span>OPD Schedule:</span> <strong>Mon - Sat (10:00 AM - 03:00 PM)</strong></li>
+              </ul>
+
+              <button class="dept-toggle-btn" type="button">View Clinical Scope &amp; Facilities</button>
+              
+              <div class="dept-expandable">
+                <p style="font-size: 0.88rem; margin-bottom: 0.5rem;"><strong>Key Procedures &amp; Infrastructure:</strong></p>
+                <ul style="font-size: 0.84rem; color: var(--text-muted); list-style: disc; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.25rem;">
+                  <li>High-Risk Pregnancy &amp; Fetal Ultrasound Monitoring</li>
+                  <li>Painless Normal Delivery with Epidural Analgesia</li>
+                  <li>Laparoscopic Hysterectomy &amp; Ovarian Cystectomy</li>
+                  <li>Infertility Evaluation &amp; Menopause Wellness Counseling</li>
+                </ul>
+              </div>
+
+              <div class="card-footer">
+                <a href="appointment.html?department=gynecology&doctor=Dr.+Sunita+Choudhary" class="btn btn-outline btn-sm btn-block">Book Gynecology OPD →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6. General Medicine -->
+          <article class="card department-card" data-dept="general-medicine">
+            <div class="card-img-wrap">
+              <img src="images/lab.jpg" alt="Internal Medicine Consultation Desk" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="card-badge">Internal Health</span>
+              <h3 class="card-title">General &amp; Internal Medicine</h3>
+              <p class="card-text">The primary gateway for complex diagnostic challenges, lifestyle disorders, chronic diabetes control, hypertension, and infectious diseases.</p>
+              
+              <ul class="card-meta-list">
+                <li><span>Head of Department:</span> <strong>Dr. Arvind Verma, MD</strong></li>
+                <li><span>OPD Schedule:</span> <strong>Daily (09:00 AM - 02:00 PM)</strong></li>
+              </ul>
+
+              <button class="dept-toggle-btn" type="button">View Clinical Scope &amp; Facilities</button>
+              
+              <div class="dept-expandable">
+                <p style="font-size: 0.88rem; margin-bottom: 0.5rem;"><strong>Key Procedures &amp; Infrastructure:</strong></p>
+                <ul style="font-size: 0.84rem; color: var(--text-muted); list-style: disc; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.25rem;">
+                  <li>Advanced Diabetes &amp; Glycemic Control Program</li>
+                  <li>Hypertension, Thyroid &amp; Metabolic Disorder Management</li>
+                  <li>Infectious Fevers: Dengue, Malaria, Typhoid Protocols</li>
+                  <li>Adult Vaccinations &amp; Preventive Health Screenings</li>
+                </ul>
+              </div>
+
+              <div class="card-footer">
+                <a href="appointment.html?department=general-medicine&doctor=Dr.+Arvind+Verma" class="btn btn-outline btn-sm btn-block">Book General Medicine OPD →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7. Dermatology -->
+          <article class="card department-card" data-dept="dermatology">
+            <div class="card-img-wrap">
+              <img src="images/pharmacy.jpg" alt="Dermatology and Skin Clinic" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="card-badge">Skin &amp; Hair</span>
+              <h3 class="card-title">Department of Dermatology</h3>
+              <p class="card-text">Clinical diagnosis and medical therapies for chronic dermatitis, psoriasis, acne, alopecia, allergic skin conditions, and aesthetic dermato-surgery.</p>
+              
+              <ul class="card-meta-list">
+                <li><span>Head of Department:</span> <strong>Dr. Neha Kapoor, MD</strong></li>
+                <li><span>OPD Schedule:</span> <strong>Mon, Thu, Sat (01:00 PM - 05:00 PM)</strong></li>
+              </ul>
+
+              <button class="dept-toggle-btn" type="button">View Clinical Scope &amp; Facilities</button>
+              
+              <div class="dept-expandable">
+                <p style="font-size: 0.88rem; margin-bottom: 0.5rem;"><strong>Key Procedures &amp; Infrastructure:</strong></p>
+                <ul style="font-size: 0.84rem; color: var(--text-muted); list-style: disc; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.25rem;">
+                  <li>Laser Therapy for Pigmentation &amp; Scars</li>
+                  <li>Platelet-Rich Plasma (PRP) for Hair Loss</li>
+                  <li>Skin Biopsies, Allergy Patch Testing &amp; Cryotherapy</li>
+                  <li>Vitiligo &amp; Eczema Medical Management</li>
+                </ul>
+              </div>
+
+              <div class="card-footer">
+                <a href="appointment.html?department=dermatology&doctor=Dr.+Neha+Kapoor" class="btn btn-outline btn-sm btn-block">Book Dermatology OPD →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 8. ENT -->
+          <article class="card department-card" data-dept="ent">
+            <div class="card-img-wrap">
+              <img src="images/emergency.jpg" alt="ENT Diagnosis Facility" loading="lazy">
+            </div>
+            <div class="card-body">
+              <span class="card-badge">Ear, Nose &amp; Throat</span>
+              <h3 class="card-title">Department of ENT &amp; Head-Neck</h3>
+              <p class="card-text">Modern endoscopic diagnosis and microsurgery for chronic sinusitis, hearing loss, nasal polyps, tonsillitis, vertigo, and vocal cord nodules.</p>
+              
+              <ul class="card-meta-list">
+                <li><span>Head of Department:</span> <strong>Dr. Harish Joshi, MS</strong></li>
+                <li><span>OPD Schedule:</span> <strong>Tue, Thu, Sat (10:00 AM - 02:00 PM)</strong></li>
+              </ul>
+
+              <button class="dept-toggle-btn" type="button">View Clinical Scope &amp; Facilities</button>
+              
+              <div class="dept-expandable">
+                <p style="font-size: 0.88rem; margin-bottom: 0.5rem;"><strong>Key Procedures &amp; Infrastructure:</strong></p>
+                <ul style="font-size: 0.84rem; color: var(--text-muted); list-style: disc; padding-left: 1.25rem; display: flex; flex-direction: column; gap: 0.25rem;">
+                  <li>Functional Endoscopic Sinus Surgery (FESS)</li>
+                  <li>Microscopic Tympanoplasty &amp; Mastoidectomy</li>
+                  <li>Computerized Pure Tone Audiometry (PTA) Soundproof Room</li>
+                  <li>Snoring &amp; Obstructive Sleep Apnea Evaluation</li>
+                </ul>
+              </div>
+
+              <div class="card-footer">
+                <a href="appointment.html?department=ent&doctor=Dr.+Harish+Joshi" class="btn btn-outline btn-sm btn-block">Book ENT OPD →</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Shared Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h2>CITY CARE HOSPITAL</h2>
+          <p class="footer-tagline">Quality Healthcare for Everyone</p>
+          <p class="footer-desc">
+            A 350-bed comprehensive multispecialty hospital dedicated to clinical excellence, patient dignity, and advanced trauma care.
+          </p>
+          <div class="footer-accreditations">
+            <span class="accred-badge">NABH Accredited</span>
+            <span class="accred-badge">NABL Lab Certified</span>
+            <span class="accred-badge">ISO 9001:2020</span>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Hospital</a></li>
+            <li><a href="departments.html">Medical Departments</a></li>
+            <li><a href="doctors.html">Find a Doctor</a></li>
+            <li><a href="services.html">Emergency &amp; Services</a></li>
+            <li><a href="health-packages.html">Preventive Health Checkups</a></li>
+            <li><a href="gallery.html">Hospital Facilities</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Clinical Services</h3>
+          <ul class="footer-links">
+            <li><a href="services.html#emergency">24/7 Trauma Emergency</a></li>
+            <li><a href="services.html#icu">Intensive Care Units (ICU)</a></li>
+            <li><a href="services.html#lab">24/7 Diagnostic Pathology</a></li>
+            <li><a href="services.html#pharmacy">Hospital Pharmacy</a></li>
+            <li><a href="services.html#ambulance">Cardiac Ambulance Fleet</a></li>
+            <li><a href="appointment.html">Cashless TPA Helpdesk</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Hospital Location</h3>
+                    <ul class="footer-contact-info">
+            <li><svg class="icon-svg" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> <span>Plot 12, Medical Square, Tonk Road, Jaipur, Rajasthan 302018</span></li>
+            <li><svg class="icon-svg" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg> <strong>Emergency:</strong> <a href="tel:+919876543210">+91 98765 43210</a></li>
+            <li><svg class="icon-svg" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> <strong>Helpline:</strong> +91 141 270 8888</li>
+            <li><svg class="icon-svg" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg> <strong>Email:</strong> care@citycarehospital.in</li>
+            <li><svg class="icon-svg" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <strong>OPD Timings:</strong> Mon - Sat: 8:00 AM - 8:00 PM</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 City Care Hospital, Jaipur. All rights reserved.</p>
+        <p class="student-disclaimer"><svg class="icon-svg" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg> This is a student project. Not a real hospital.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top of page">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
